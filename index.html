@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Profissional</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="main-nav" class="show">
+    <div class="container">
+      <img src="public\placeholder-logo.png" alt="Profile">
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Inicio</a></li>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-info hero-animate">
+          <div class="profile-image">
+            <img src="public\perfil.jpg" alt="Profile">
+          </div>
+          <h1>O que procura, esta aqui!</h1>
+          <p>Meu compromisso é entregar sempre o melhor. Sua satisfação é sempre a prioridade. 
+            Busco a excelência em cada detalhe, oferecendo serviços de alta qualidade para superar suas expectativas</p>
+            <p>Mais do que um serviço, soluções. Conte comigo para resultados que fazem a diferença.</p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">Ver Portfólio</a>
+            <a href="#contact" class="btn btn-outline">Entrar em Contato</a>
+          </div>
+        </div>
+        <div class="hero-image hero-animate">
+          <img src="public\placeholder.png" alt="Digital Illustration">
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#about">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content animate-on-scroll">
+        <h2><span class="gradient-text">Sobre Mim</span></h2>
+        <div class="about-text">
+          <p>
+            Profissional de TI com mais de 10 anos de experiência, com trajetória ascendente desde suporte técnico até gestão de equipes e fiscalização
+             de contratos de TIC.
+            Experiência comprovada na criação e otimização de fluxos e processos de TIC, além de melhoria e validação de documentação técnica. Possui conhecimento em aplicações web, implantação de soluções, banco de dados, segurança da informação, virtualização, sistemas operacionais e cloud computing. 
+          </p>
+          <p>
+            Atualmente aprimorando habilidades em programação para desenvolvimento de aplicações e sistemas, assim como automação de processos.
+          </p>
+          <p>
+            Acredito que o melhor profissional é aquele que resolve problemas reais de forma eficiente, mantendo sempre a satisfação do usuário final. Estou sempre aprendendo novas tecnologias e metodologias para entregar soluções de alta
+            qualidade.
+          </p>
+        </div>
+
+        <!-- Linha do tempo  -->
+        <div class="timeline animate-on-scroll">
+          <h3><span class="gradient-text">Trajetória Profissional</span></h3>
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="year">2025 - Atualmente</span>
+                <h4>Consultor e Analista de TI</h4>
+                <p class="company">Autônomo</p>
+                <p class="description">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="year">2024</span>
+                <h4>Gestor de Equipe do Núcleo de Serviços da Coordenação de Redes</h4>
+                <p class="company">Defensoria Pública do Estado do Rio de Janeiro</p>
+                <p class="description">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="year">2022 - 2024</span>
+                <h4>Analista de Redes e Infraestrutura</h4>
+                <p class="company">Defensoria Pública do Estado do Rio de Janeiro</p>
+                <p class="description">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="year">2016 - 2022</span>
+                <h4>Técnico de Informática e de Suporte ao Usuário</h4>
+                <p class="company">Defensoria Pública do Estado do Rio de Janeiro</p>
+                <p class="description">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="year">2010 - 2016</span>
+                <h4>Técnico de Informatica</h4>
+                <p class="company">Autônomo</p>
+                <p class="description">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Area do portifolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="animate-on-scroll"><span class="gradient-text">Portfólio</span></h2>
+      <p class="section-description animate-on-scroll">
+        Conheça alguns dos projetos que desenvolvi. Cada um representa desafios únicos e soluções personalizadas.
+      </p>
+
+      <div class="carousel-container animate-on-scroll">
+        <div class="carousel" id="project-carousel">
+          <!-- Os projetos serão inseridos aqui por JavaScript - arquivo script.js a partir da linha 82-->
+        </div>
+        
+        <button class="carousel-btn prev-btn" aria-label="Projeto anterior">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn next-btn" aria-label="Próximo projeto">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        
+        <div class="carousel-dots" id="carousel-dots">
+          <!-- Dots will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Área de contato -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="animate-on-scroll"><span class="gradient-text">Contato</span></h2>
+      <div class="contact-container">
+        <div class="contact-info animate-on-scroll">
+          <div class="card">
+            <h3>Informações de Contato</h3>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:seu-email@exemplo.com">ti.amaronetto@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+5500000000000">+55 (21) 96403-9120</a>
+              </div>
+            </div>
+
+            <h3>Redes Sociais</h3>
+            <div class="social-links">
+              <a href="https://github.com/amaro-netto" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/amaronetto" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://instagram.com/ti.amaronetto" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form animate-on-scroll">
+          <div class="card">
+            <h3>Envie uma Mensagem</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" placeholder="Seu nome completo" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="seu-email@exemplo.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefone/WhatsApp</label>
+                <input type="tel" id="phone" placeholder="(00) 00000-0000">
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" placeholder="Escreva sua mensagem aqui..." rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i> Enviar Mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <p>© <span id="current-year"></span> Amaro Netto. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <button class="close-modal" aria-label="Fechar">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-image">
+        <img src="/placeholder.svg" alt="" id="modal-image">
+      </div>
+      <div class="modal-body">
+        <h2 id="modal-title"></h2>
+        <div id="modal-technologies" class="modal-technologies"></div>
+        <div id="modal-description" class="modal-description"></div>
+        <div class="modal-buttons">
+          <a href="#" class="btn btn-primary" id="visit-project">Visitar Projeto</a>
+          <a href="#" class="btn btn-outline" id="view-code">Ver Código Fonte</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
