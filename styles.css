@@ -557,6 +557,39 @@ nav .container img {
   gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
+  justify-content: space-between;
+}
+
+.contact-info, .contact-form {
+  flex: 1;
+  max-width: 450px; /* Definindo uma largura máxima fixa */
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  /* Removendo as definições anteriores de width */
+  .contact-info, .contact-form {
+    width: auto;
+  }
+}
+
+/* Removendo estas regras que estavam causando conflito */
+@media (min-width: 768px) {
+  .contact-container {
+    flex-direction: row;
+  }
+
+  .contact-info {
+    width: 40%;
+  }
+
+  .contact-form {
+    width: 60%;
+  }
 }
 
 .card {
