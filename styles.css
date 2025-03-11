@@ -144,6 +144,7 @@ nav {
   width: 100%;
   z-index: 1000;
   background-color: rgba(10, 10, 10, 0.8);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease;
 }
@@ -317,17 +318,20 @@ nav .container img {
 
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 4rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: flex-start;
   margin-top: 2rem;
 }
 
-.about-info {
+.about-info, .timeline-section {
   width: 100%;
+  max-width: 100%;
 }
 
-.timeline-section {
-  width: 100%;
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -849,19 +853,19 @@ footer p {
 
 .about-grid {
   display: grid;
-stavam m  grid-template-columns: 1fr 1fr;
-  gap: 5rem; /* Aumentando um pouco o espaçamento entre as colunas */
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
   align-items: flex-start;
   margin-top: 2rem;
 }
 
 .about-info, .timeline-section {
   width: 100%;
-  max-width: 100%; /* Garantindo que não ultrapasse a largura da coluna */
+  max-width: 100%;
 }
 
 .about-content {
-  max-width: 1200px; /* Aumentando para aproveitar melhor o espaço */
+  max-width: 1200px;
   margin: 0 auto;
 }
 
