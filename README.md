@@ -1,80 +1,113 @@
-<h1 align="center"> ✨ Meu Portfólio Pessoal ✨  <p align="center">
+<h1 align="center">✨ Dark Mode Portfolio ✨</h1>
+<p align="center">Um portfólio profissional moderno com tema escuro e design responsivo</p>
 
-![Imagem de destaque do seu portfólio] (Coloque o link da imagem aqui - Ex: /assets/portfolio-image.png)
+![Imagem de destaque do portfólio](/public/placeholder.png)
 
 ## Badges
 [![HTML Valido](https://img.shields.io/badge/HTML-Validado-informational?style=flat&logo=html5&logoColor=white&color=2ECC71)](https://validator.w3.org/)
 [![CSS Valido](https://img.shields.io/badge/CSS-Validado-informational?style=flat&logo=css3&logoColor=white&color=2ECC71)](https://jigsaw.w3.org/css-validator/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat&logo=javascript&logoColor=black)](https://www.javascript.com/)
-[![Status](https://img.shields.io/badge/Status-Concluído-success)](https://github.com/seu-usuario/seu-repositorio)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=flat&logo=javascript&logoColor=black)](https://www.javascript.com/)
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)](https://github.com/amaro-netto/dark-mode-portfolio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Índice
-
-*   [Título e Imagem de capa](#título--meu-portfólio-pessoal-)
-*   [Badges](#badges)
-*   [Índice](#índice)
-*   [Descrição do Projeto](#descrição-do-projeto)
-*   [Status do Projeto](#status-do-projeto)
-*   [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-*   [Acesso ao Projeto](#acesso-ao-projeto)
-*   [Tecnologias utilizadas](#tecnologias-utilizadas)
-*   [Pessoas Contribuidoras](#pessoas-contribuidoras)
-*   [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
-*   [Licença](#licença)
-*   [Conclusão](#conclusão)
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Status do Projeto](#status-do-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Layout e Design](#layout-e-design)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Usar](#como-usar)
+- [Licença](#licença)
 
 ## Descrição do Projeto
-
-Esta landing page foi criada como um portfólio pessoal para demonstrar minhas habilidades e projetos desenvolvidos em HTML, CSS e JavaScript. O objetivo é fornecer uma visão geral concisa e atraente do meu trabalho, permitindo que visitantes conheçam minhas qualificações e experiência de forma rápida e intuitiva.  A landing page inclui seções para apresentar meus projetos, habilidades, informações de contato e um breve resumo sobre mim.
+Um portfólio profissional com tema escuro, desenvolvido com HTML, CSS e JavaScript vanilla. O projeto apresenta um design moderno e elegante, com animações suaves e uma experiência de usuário intuitiva.
 
 ## Status do Projeto
+🚧 **Em Desenvolvimento** 
 
-✔️ **Concluído:** O projeto foi finalizado e está online, apresentando meus projetos e habilidades. Manutenções e atualizações serão realizadas conforme novos projetos forem desenvolvidos.
-
-## Funcionalidades e Demonstração da Aplicação
-
-*   **Apresentação de Projetos:** Exibe uma lista de projetos com títulos, descrições e links para demos ou repositórios.
-*   **Vitrine de Habilidades:**  Destaca minhas principais habilidades técnicas e conhecimentos.
-*   **Informações de Contato:** Fornece um formulário de contato ou links para minhas redes sociais profissionais (LinkedIn, GitHub, etc.).
-*   **Design Responsivo:** Adapta-se a diferentes tamanhos de tela, garantindo uma experiência de visualização ideal em desktops, tablets e smartphones.
-*   **Seção "Sobre Mim":** Uma breve apresentação pessoal com meus objetivos e principais qualidades.
-*   **[Opcional] Animações/Transições:**  Utilização de animações sutis para tornar a experiência mais agradável.
-
+## Funcionalidades
+- ✨ Design responsivo para todos os dispositivos
+- 🌙 Tema escuro nativo
+- 🎯 Animações suaves no scroll
+- 🎠 Carrossel de projetos interativo
+- 📱 Menu mobile responsivo
+- 📝 Formulário de contato funcional
+- 🔗 Links para redes sociais
+- ⚡ Navegação suave entre seções
+- 🖼️ Modal para detalhes dos projetos
+- ⏳ Timeline profissional interativa
+  
 **Demonstração:**
 
 https://github.com/user-attachments/assets/75cc12f6-ec1b-4ecb-9c47-b54f2273b709
 
+## Layout e Design
 
+### Sistema de Cores
+```css
+:root {
+  --background: #0a0a0a;
+  --foreground: #f5f5f5;
+  --card-bg: #1a1a1a;
+  --card-border: #2a2a2a;
+  --primary: #3633ea;
+  --primary-hover: #2289ce;
+  --primary-light: rgba(51, 161, 234, 0.2);
+  --secondary: #2a2a2a;
+  --secondary-hover: #3a3a3a;
+  --muted: #6b7280;
+}
+```
+### Breakpoints Responsivos
+- 📱 Mobile: < 768px
+- 💻 Desktop: ≥ 768px
 
-## Acesso ao Projeto
+## Tecnologias Utilizadas
+- HTML5 Semântico
+- CSS3 (com variáveis CSS)
+- JavaScript Vanilla
+- Font Awesome 6.4.0
+- Google Fonts
+- Animações CSS
+- Sistema de Grid CSS
+- Flexbox
 
-Você pode acessar o código fonte do projeto no [GitHub]([Link para o repositório do GitHub](Substitua pelo link do seu repositório no GitHub)).
+## Como Usar
+1. Clone o repositório:
+```bash
+git clone https://github.com/amaro-netto/dark-mode-portfolio.git
+ ```
 
-Para executar o projeto localmente:
+2. Navegue até o diretório:
+```bash
+cd dark-mode-portfolio
+ ```
 
-1.  Clone o repositório: `git clone [URL do seu repositório]`
-2.  Navegue até o diretório do projeto: `cd [nome do diretório]`
-3.  Abra o arquivo `index.html` em seu navegador web.
+3. Instale o servidor local:
+```bash
+npm install serve
+ ```
 
-## Tecnologias utilizadas
+4. Inicie o servidor:
+```bash
+npm start
+ ```
 
-*   **HTML:** Estrutura da página web.
-*   **CSS:** Estilização visual da página, layout e responsividade.
-*   **JavaScript:**  Interatividade, manipulação do DOM e funcionalidades dinâmicas (ex: envio de formulário).
-*   **[Opcional] Bibliotecas/Frameworks:**  Se você usou alguma biblioteca ou framework, liste aqui (ex: jQuery, Bootstrap, etc.).
-*   **[Opcional] Ferramentas de Build:** Se você usou alguma ferramenta de build (ex: Webpack, Parcel), liste aqui.
-*   **Fontes:** [Nome das fontes utilizadas] (Ex: Google Fonts - Roboto, Open Sans).
-*   **Ícones:** [Serviço de ícones utilizado] (Ex: Font Awesome, Material Icons).
+## Estrutura do Projeto
+```plaintext
+dark-mode-portfolio/
+├── index.html
+├── styles.css
+├── script.js
+└── public/
+    ├── perfil.jpg
+    ├── placeholder.png
+    └── placeholder-logo.png
+ ```
 
 ## Pessoas Desenvolvedoras do Projeto
 
-*   [Seu Nome]([Link para seu GitHub/LinkedIn](Substitua pelo link do seu perfil)) - Desenvolvedor principal
+*   [Amaro Netto](https://github.com/amaro-netto) - Desenvolvedor principal
 
 ## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).  Consulte o arquivo `LICENSE` para obter mais detalhes.
-
-## Conclusão
-
-Este portfólio foi desenvolvido com o objetivo de apresentar minhas habilidades e projetos de forma clara e profissional. Espero que a landing page ofereça uma boa visão do meu trabalho. Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou interesse em meus serviços.
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
