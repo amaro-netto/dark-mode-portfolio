@@ -310,8 +310,31 @@ nav .container img {
 }
 
 .about-content {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.about-info {
+  width: 100%;
+}
+
+.timeline-section {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
 
 .about h2 {
@@ -465,50 +488,55 @@ nav .container img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(26, 26, 26, 0.8);
-  border: 1px solid var(--card-border);
+  background: rgba(54, 51, 234, 0.3); /* Mudando para usar a cor primária com transparência */
   color: white;
-  width: 3rem;
-  height: 3rem;
+  border: none;
+  width: 50px; /* Aumentando o tamanho */
+  height: 50px; /* Aumentando o tamanho */
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   z-index: 10;
-  transition: var(--transition);
+  transition: all 0.3s ease;
+  display: flex; /* Adicionando flex para centralizar o ícone */
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-btn:hover {
-  background-color: var(--secondary-hover);
+  background: var(--primary); /* Usando a cor primária no hover */
+  transform: translateY(-50%) scale(1.1); /* Efeito de escala no hover */
+}
+
+.carousel-btn i {
+  font-size: 1.2rem; /* Aumentando o tamanho do ícone */
 }
 
 .prev-btn {
-  left: -1.5rem;
+  left: 10px;
 }
 
 .next-btn {
-  right: -1.5rem;
+  right: 10px;
 }
 
 .carousel-dots {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1.5rem;
+  gap: 8px;
+  margin-top: 20px;
 }
 
 .dot {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background-color: var(--secondary);
+  background: rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: var(--transition);
+  transition: background-color 0.3s ease;
 }
 
 .dot.active {
-  background-color: var(--primary);
+  background: var(--primary-color);
 }
 
 /* Contact Section */
@@ -783,5 +811,30 @@ footer p {
 
   .modal-buttons {
     flex-direction: column;
+  }
+}
+
+.about-grid {
+  display: grid;
+stavam m  grid-template-columns: 1fr 1fr;
+  gap: 5rem; /* Aumentando um pouco o espaçamento entre as colunas */
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.about-info, .timeline-section {
+  width: 100%;
+  max-width: 100%; /* Garantindo que não ultrapasse a largura da coluna */
+}
+
+.about-content {
+  max-width: 1200px; /* Aumentando para aproveitar melhor o espaço */
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 }
