@@ -43,6 +43,8 @@ https://github.com/user-attachments/assets/75cc12f6-ec1b-4ecb-9c47-b54f2273b709
 
 ## Layout e Design
 
+![screencapture-file-C-Users-Amaro-Desktop-dark-mode-portfolio-index-html-2025-03-15-20_17_49](https://github.com/user-attachments/assets/7cee8de3-4e3e-4826-b490-ca8fca0e45fa)
+
 ### Sistema de Cores
 ```css
 :root {
