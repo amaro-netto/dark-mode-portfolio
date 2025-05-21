@@ -1,14 +1,22 @@
 <h1 align="center">✨ Landing Page Portfolio ✨</h1>
 <p align="center">Um portfólio profissional moderno com tema escuro e design responsivo</p>
 
-![Imagem de destaque do portfólio](/public/placeholder.png)
+<div align="center">
+<img src="/public/placeholder.png" alt="/public/placeholder.png" width="300">
+</div>
 
 ## Badges
-[![HTML Valido](https://img.shields.io/badge/HTML-Validado-informational?style=flat&logo=html5&logoColor=white&color=2ECC71)](https://validator.w3.org/)
-[![CSS Valido](https://img.shields.io/badge/CSS-Validado-informational?style=flat&logo=css3&logoColor=white&color=2ECC71)](https://jigsaw.w3.org/css-validator/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=flat&logo=javascript&logoColor=black)](https://www.javascript.com/)
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)](https://github.com/amaro-netto/dark-mode-portfolio)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![HTML5 Semântico](https://img.shields.io/badge/HTML5-Semântico-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3 com variáveis](https://img.shields.io/badge/CSS3-com%20variáveis-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript Vanilla](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![Font Awesome 6.4.0](https://img.shields.io/badge/Font%20Awesome-6.4.0-339AF0?logo=font-awesome&logoColor=white&style=for-the-badge)
+![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Typography-4285F4?logo=googlefonts&logoColor=white&style=for-the-badge)
+![Animações CSS](https://img.shields.io/badge/Animações-CSS-FF69B4?style=for-the-badge)
+![Sistema de Grid CSS](https://img.shields.io/badge/Sistema%20de%20Grid-CSS%20Grid-FF5733?style=for-the-badge)
+![Flexbox](https://img.shields.io/badge/Flexbox-CSS-2962FF?style=for-the-badge)
+![Status: Em desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge)
+![Licença: MIT](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)
+
 
 ## Índice
 - [Descrição do Projeto](#descrição-do-projeto)
