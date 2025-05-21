@@ -1,4 +1,4 @@
-<h1 align="center">✨ Dark Mode Portfolio ✨</h1>
+<h1 align="center">✨ Landing Page Portfolio ✨</h1>
 <p align="center">Um portfólio profissional moderno com tema escuro e design responsivo</p>
 
 ![Imagem de destaque do portfólio](/public/placeholder.png)
