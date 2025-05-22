@@ -14,7 +14,6 @@
 ![Animações CSS](https://img.shields.io/badge/Animações-CSS-FF69B4?style=for-the-badge)
 ![Sistema de Grid CSS](https://img.shields.io/badge/Sistema%20de%20Grid-CSS%20Grid-FF5733?style=for-the-badge)
 ![Flexbox](https://img.shields.io/badge/Flexbox-CSS-2962FF?style=for-the-badge)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/845a0fe8-e01d-4277-b57b-7ea7b1c82648/deploy-status)](https://app.netlify.com/projects/sorteiroamigosecreto/deploys)
 ![Status: Em desenvolvimento](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge)
 ![Licença: MIT](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)
 
