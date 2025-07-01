@@ -302,26 +302,27 @@ nav .container img {
 }
 
 .profile-details h2 {
-  font-size: 1.1rem; /* Ajuste o tamanho da fonte se necessário */
+  font-size: 30px; /* Ajuste o tamanho da fonte se necessário */
   margin-bottom: 0.5rem;
   line-height: 1.2;
 }
 
 .profile-details p {
-  font-size: 1rem; /* Ajuste o tamanho da fonte se necessário */
+  font-size: 0.2rem; /* Ajuste o tamanho da fonte se necessário */
   color: var(--muted);
   margin-bottom: 0; /* Remova a margem inferior para não afetar o layout */
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.25rem;
+  font-size: 1.10rem;
   color: var(--muted);
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .hero-buttons {
