@@ -244,8 +244,7 @@ nav .container img {
 }
 
 .profile-image img {
-  width: 80%;
-  height: 95%;
+  width: 40%;
   object-fit: cover;
   border-radius: 50%;
   overflow: hidden;
