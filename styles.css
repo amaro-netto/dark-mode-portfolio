@@ -243,19 +243,74 @@ nav .container img {
   max-width: 600px;
 }
 
-.profile-image {
-  width: 150px;
-  height: 150px;
+.profile-image img {
+  width: 80%;
+  height: 95%;
+  object-fit: cover;
   border-radius: 50%;
   overflow: hidden;
   border: 4px solid var(--primary);
-  margin: 0 auto 1.5rem;
 }
 
-.profile-image img {
+.profile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.7); /* Exemplo de fundo para o overlay */
+  color: var(--foreground); /* Cor do texto */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0; /* Começa invisível */
+  transition: opacity 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.profile-overlay h2 {
+  font-size: 2.8rem;
+  margin-bottom: 0.1rem;
+}
+
+.profile-overlay p {
+  font-size: 0.1rem;
+  padding: 0 1px;
+}
+
+/* Novo contêiner para a foto e as informações de perfil */
+.profile-header {
+  /* Por padrão (mobile first), a direção será em coluna e centralizado */
+  display: flex; [cite_start]
+  flex-direction: column; [cite_start]
+  align-items: center; [cite_start]
+  gap: 1.5rem; [cite_start]
+  margin-bottom: 1.0rem; [cite_start]
+}
+
+/* Ajuste para telas maiores (desktop) */
+@media (min-width: 768px) {
+  .profile-header {
+    flex-direction: row; [cite_start]
+    justify-content: flex-start; [cite_start]/
+}
+/* Estilos para o texto de perfil (antigo profile-overlay) */
+.profile-details {
+  text-align: left; /* Garante que o texto esteja alinhado à esquerda */
+  /* Remova quaisquer estilos antigos do .profile-overlay que o escondiam, como 'opacity', 'position: absolute', 'width: 100%', 'height: 100%', etc. */
+}
+
+.profile-details h2 {
+  font-size: 1.1rem; /* Ajuste o tamanho da fonte se necessário */
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.profile-details p {
+  font-size: 1rem; /* Ajuste o tamanho da fonte se necessário */
+  color: var(--muted);
+  margin-bottom: 0; /* Remova a margem inferior para não afetar o layout */
 }
 
 .hero h1 {
